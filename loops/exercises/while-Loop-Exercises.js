@@ -6,8 +6,13 @@
 
 /*Exercise #4: Construct while loops to do the following:
   a. Query the user for the starting fuel level. Validate that the user enters a positive, integer value greater than 5000 but less than 30000. */
+const input = require('readline.sync');
+let fuelLevel = 0, numAstronauts = 0, altitude = 0;
 
-
+while (fuelLevel <= 5000 || fuelLevel >= 30000 || isNaN(fuelLevel))
+{
+  fuelLevel = input.question("What is your starting fuel level? ");
+} 
 
 
 
