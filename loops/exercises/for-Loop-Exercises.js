@@ -18,7 +18,7 @@ if (i % 2 != 0){
   }
 */
 
-//c
+//
 /*
 for (let i = 12; (i > -15); i--){
   if (i % 2 === 0){
@@ -27,7 +27,7 @@ for (let i = 12; (i > -15); i--){
 }
 */
 
-//d
+//
 // for (i = 50; (i > 19); i--){
 //   if (i % 3 === 0){
 //     console.log(i)
@@ -42,7 +42,7 @@ Construct ``for`` loops to accomplish the following tasks:
   b. Print each character of the string - in reverse order - to a new line. */ 
 
 // const launchcode = "Launchcode"
-// const arrayB = [1, 5, 'LC101', 'blue', 42]
+// const array = [1, 5, 'LC101', 'blue', 42]
 // let reversed = ""
 // for (i = 0; i < arrayB.length; i ++){
 //   console.log(arrayB[i])

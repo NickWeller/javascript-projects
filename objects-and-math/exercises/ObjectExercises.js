@@ -72,4 +72,4 @@ function fitnessTest(crew){
   }
 
   console.log(crewReports(crew));
-  console.log(fitnessTest(crew))
+  console.log(fitnessTest(crew));
