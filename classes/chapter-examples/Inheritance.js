@@ -1,21 +1,21 @@
 class Felidae {
-	constructor() {
-		this.claws = "retractable";
-	}
+  constructor() {
+    this.claws = "retractable";
+  }
 }
 
 class Panthera extends Felidae {
-	constructor() {
+  constructor() {
     super();
-		this.roar = "loud";
-	}
+    this.roar = "loud";
+  }
 }
 
 class Tiger extends Panthera {
-	constructor() {
+  constructor() {
     super();
-		this.hasStripes = "true";
-	}
+    this.hasStripes = "true";
+  }
 }
 
 let tigger = new Tiger();
