@@ -6,9 +6,9 @@
 
 // Code your divide function here:
 function divide(numerator, denominator) {
-    if (denominator === 0) {
-        throw Error("Attempted to divide by zero");
-    }
-    
-    return numerator/denominator;
+  if (denominator === 0) {
+    throw Error("Attempted to divide by zero");
+  }
+
+  return numerator / denominator;
 }

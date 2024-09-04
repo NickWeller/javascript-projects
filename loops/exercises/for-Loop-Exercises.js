@@ -39,7 +39,7 @@ Initialize two variables to hold the string “LaunchCode” and the array [1, 5
 
 Construct ``for`` loops to accomplish the following tasks:
   a. Print each element of the array to a new line.
-  b. Print each character of the string - in reverse order - to a new line. */ 
+  b. Print each character of the string - in reverse order - to a new line. */
 
 // const launchcode = "Launchcode"
 // const array = [1, 5, 'LC101', 'blue', 42]
@@ -53,26 +53,22 @@ Construct ``for`` loops to accomplish the following tasks:
 //   }
 //   console.log(reversed)
 
-
-
-
-
 /*Exercise #3:Construct a for loop that sorts the array [2, 3, 13, 18, -5, 38, -10, 11, 0, 104] into two new arrays:
   a. One array contains the even numbers, and the other holds the odds.
   b. Print the arrays to confirm the results. */
-finalArray = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104]
-evenArray = []
-oddArray = []
+finalArray = [2, 3, 13, 18, -5, 38, -10, 11, 0, 104];
+evenArray = [];
+oddArray = [];
 
 for (i = 0; i < finalArray.length; i++) {
-    if (finalArray[i]% 2 != 0 || (finalArray[i] * -1) % 2 != 0) {
-      oddArray.push(finalArray[i])
-      oddArray = oddArray.sort();
+  if (finalArray[i] % 2 != 0 || (finalArray[i] * -1) % 2 != 0) {
+    oddArray.push(finalArray[i]);
+    oddArray = oddArray.sort();
   } else {
-      evenArray.push(finalArray[i])
-      evenArray = evenArray.sort();
+    evenArray.push(finalArray[i]);
+    evenArray = evenArray.sort();
   }
 }
 
-console.log(evenArray)
-console.log(oddArray)
+console.log(evenArray);
+console.log(oddArray);

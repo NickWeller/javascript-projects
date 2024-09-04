@@ -1,3 +1,3 @@
-const shuttleManagement = require('./solution.js');
+const shuttleManagement = require("./solution.js");
 
 shuttleManagement.runProgram();

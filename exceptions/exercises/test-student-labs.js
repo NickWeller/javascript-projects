@@ -11,43 +11,42 @@ function gradeLabs(labs) {
   }
 }
 
-
 let studentLabs = [
   {
-    student: 'Carly',
+    student: "Carly",
     runLab: function (num) {
-        return Math.pow(num, num);
-    }
+      return Math.pow(num, num);
+    },
   },
   {
-    student: 'Erica',
+    student: "Erica",
     runLab: function (num) {
-        return num * num;
-    }
-  }
+      return num * num;
+    },
+  },
 ];
 
 gradeLabs(studentLabs);
 
 let studentLabs2 = [
   {
-      student: 'Blake',
-      myCode: function (num) {
-        return Math.pow(num, num);
-      }
+    student: "Blake",
+    myCode: function (num) {
+      return Math.pow(num, num);
+    },
   },
   {
-      student: 'Jessica',
-      runLab: function (num) {
-        return Math.pow(num, num);
-      }
+    student: "Jessica",
+    runLab: function (num) {
+      return Math.pow(num, num);
+    },
   },
   {
-      student: 'Mya',
-      runLab: function (num) {
-        return num * num;
-      }
-  }
+    student: "Mya",
+    runLab: function (num) {
+      return num * num;
+    },
+  },
 ];
 
 gradeLabs(studentLabs2);

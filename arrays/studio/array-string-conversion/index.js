@@ -1,4 +1,4 @@
-const studio = require('./array-testing');
+const studio = require("./array-testing");
 
 console.log(studio.reverseCommas());
 console.log(studio.semiDash());

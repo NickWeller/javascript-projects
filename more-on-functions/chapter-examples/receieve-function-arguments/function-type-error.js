@@ -1,5 +1,5 @@
 function callMe(func) {
-    func();
+  func();
 }
 
 callMe("Al");

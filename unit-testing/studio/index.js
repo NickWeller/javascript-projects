@@ -1,7 +1,3 @@
-
-let launchcode = {
-  
-}
+let launchcode = {};
 
 module.exports = launchcode;
-

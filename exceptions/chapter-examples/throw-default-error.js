@@ -1,1 +1,1 @@
-throw Error('You cannot divide by zero!');
+throw Error("You cannot divide by zero!");

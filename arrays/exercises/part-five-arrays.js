@@ -1,5 +1,5 @@
-let str = 'In space, no one can hear you code.';
-let arr = ['B', 'n', 'n', 5];
+let str = "In space, no one can hear you code.";
+let arr = ["B", "n", "n", 5];
 
 //1) Use the split method on the string to identify the purpose of the parameter inside the ().
 

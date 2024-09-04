@@ -1,3 +1,3 @@
-const input = require('readline-sync');
+const input = require("readline-sync");
 
 let name = input.question("Enter your name: ");

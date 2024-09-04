@@ -1,6 +1,6 @@
 //Part Three section one
 
-let language = 'JavaScript';
+let language = "JavaScript";
 
 //1. Use string concatenation and two slice() methods to print 'JS' from 'JavaScript'
 
@@ -14,4 +14,4 @@ let language = 'JavaScript';
 
 //1. Use the string methods you know to print 'Title Case' from the string 'title case'.
 
-let notTitleCase = 'title case';
+let notTitleCase = "title case";

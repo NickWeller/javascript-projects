@@ -1,5 +1,5 @@
-let holdCabinet1 = ['duct tape', 'gum', 3.14, false, 6.022e23];
-let holdCabinet2 = ['orange drink', 'nerf toys', 'camera', 42, 'parsnip'];
+let holdCabinet1 = ["duct tape", "gum", 3.14, false, 6.022e23];
+let holdCabinet2 = ["orange drink", "nerf toys", "camera", 42, "parsnip"];
 
 //Explore the methods concat, slice, reverse, and sort to determine which ones alter the original array.
 

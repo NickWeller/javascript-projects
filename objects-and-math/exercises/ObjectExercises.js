@@ -1,46 +1,56 @@
 let superChimpOne = {
-   name: "Chad",
-   species: "Chimpanzee",
-   mass: 9,
-   age: 6,
-   astronautID: 1,
-   move: function () {Math.floor(Math.random()*11)}
+  name: "Chad",
+  species: "Chimpanzee",
+  mass: 9,
+  age: 6,
+  astronautID: 1,
+  move: function () {
+    Math.floor(Math.random() * 11);
+  },
 };
 
 let salamander = {
-   name: "Lacey",
-   species: "Axolotl Salamander",
-   mass: 0.1,
-   age: 5,
-   astronautID: 2,
-   move: function () {Math.floor(Math.random()*11)}
+  name: "Lacey",
+  species: "Axolotl Salamander",
+  mass: 0.1,
+  age: 5,
+  astronautID: 2,
+  move: function () {
+    Math.floor(Math.random() * 11);
+  },
 };
 
 let superChimpTwo = {
-   name: "Brad",
-   species: "Chimpanzee",
-   mass: 11,
-   age: 6,
-   astronautID: 3,
-   move: function () {Math.floor(Math.random()*11)}
+  name: "Brad",
+  species: "Chimpanzee",
+  mass: 11,
+  age: 6,
+  astronautID: 3,
+  move: function () {
+    Math.floor(Math.random() * 11);
+  },
 };
 
 let dawg = {
-   name: "Leroy",
-   species: "Beagle",
-   mass: 14,
-   age: 5,
-   astronautID: 4,
-   move: function () {Math.floor(Math.random()*11)}
+  name: "Leroy",
+  species: "Beagle",
+  mass: 14,
+  age: 5,
+  astronautID: 4,
+  move: function () {
+    Math.floor(Math.random() * 11);
+  },
 };
 
 let lilBug = {
-   name: "Almina",
-   species: "Tardigrade",
-   mass: 0.0000000001,
-   age: 1,
-   astronautID: 5,
-   move: function () {Math.floor(Math.random()*11)}
+  name: "Almina",
+  species: "Tardigrade",
+  mass: 0.0000000001,
+  age: 1,
+  astronautID: 5,
+  move: function () {
+    Math.floor(Math.random() * 11);
+  },
 };
 // After you have created the other object literals, add the astronautID property to each one.
 
@@ -49,27 +59,31 @@ let lilBug = {
 // Create an array to hold the animal objects.
 let crew = [superChimpOne, superChimpTwo, salamander, dawg, lilBug];
 // Print out the relevant information about each animal.
-function crewReports(crew){
-let results = [];
-for (i=0; i < crew.length; i++){
-   results.push(`${crew[i].name} is a ${crew[i].species}. They are ${crew[i].age} years old and ${crew[i].mass} kilograms. Their ID is ${crew[i].astronautID}.`);
-}
-return results;
+function crewReports(crew) {
+  let results = [];
+  for (i = 0; i < crew.length; i++) {
+    results.push(
+      `${crew[i].name} is a ${crew[i].species}. They are ${crew[i].age} years old and ${crew[i].mass} kilograms. Their ID is ${crew[i].astronautID}.`,
+    );
+  }
+  return results;
 }
 // Start an animal race!
-function fitnessTest(crew){
-   let results = [], numSteps, turns;
-   for (let i = 0; i < crew.length; i++){
-       numSteps = 0;
-       turns = 0;
-       while(numSteps < 20){
-       numSteps += crew[i].move();
-       turns++;
-       }
-       results.push(`${crew[i].name} took ${turns} turns to take 20 steps.`);
-   } 
-   return results;
+function fitnessTest(crew) {
+  let results = [],
+    numSteps,
+    turns;
+  for (let i = 0; i < crew.length; i++) {
+    numSteps = 0;
+    turns = 0;
+    while (numSteps < 20) {
+      numSteps += crew[i].move();
+      turns++;
+    }
+    results.push(`${crew[i].name} took ${turns} turns to take 20 steps.`);
   }
+  return results;
+}
 
-  console.log(crewReports(crew));
-  console.log(fitnessTest(crew));
+console.log(crewReports(crew));
+console.log(fitnessTest(crew));
